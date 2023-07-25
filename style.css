@@ -1,0 +1,285 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: blue;
+    font-family: Bebas Neue;
+    background-color: #000000;
+    box-sizing: border-box;
+
+}
+ul{
+    display: flex;
+    color: aliceblue;
+    justify-content: right;
+    margin-top: -4%;
+    gap: 50px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-right: 120px;
+    
+}
+li{
+ transition: .25s ease-in;
+
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 4px;
+ border-radius: 5px;
+ padding-bottom: -10px;
+
+ 
+ 
+}
+li:hover{
+   border-bottom: 3px solid red;
+    
+}
+#present{
+    
+    padding: 5px;
+    background-color: antiquewhite;
+    color: #E50914;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+nav{
+    margin-bottom: 100px;
+}
+.row1{
+    position: relative;
+    width: 70%;
+    overflow:hidden;
+    margin-bottom: 100px;
+    border: 2px solid #564d4d;
+    margin-left: 200px;
+    border-radius: 25px;
+    box-shadow: 10px 5px #431f20;
+
+
+}
+.slides{
+    display: flex;
+    width: 100%;
+}
+.slides img{
+    height: 600px;
+    width:1000%;
+    transition: all 0.25s ease;
+}
+.slides input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+height: 20px;
+width: 20px;
+border-radius: 50%;
+border:  3px solid #E50914;
+cursor: pointer;
+margin: 5px;
+
+}
+.dots label:hover{
+    background-color: white;
+}
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+#img2:checked ~ .m2{
+    margin-left: -115%;
+}
+#img3:checked ~ .m3{
+    margin-left: -230%;
+}
+#img4:checked ~ .m4{
+    margin-left: -355%;
+}
+#img5:checked ~ .m5{
+    margin-left: -475%;
+}
+.space{
+    background-color: #564d4d;
+    margin-bottom: 20px;
+}
+col img{
+   height: 50px;
+   width:10px
+}
+
+
+.col-sm img{
+height: 450px;    
+border-radius: 20px;
+
+
+}
+.intro{
+    max-width: 300px; 
+    position: absolute;
+    border-radius: 0px 0px 20px 20px;
+    background-color:#564d4d;
+    overflow-wrap: break-word;
+    margin-top: -200px;
+    padding-left: 5px;
+    opacity: 0;
+    color: aliceblue;
+    transition: 2.5s ease  ;
+}
+.intro:hover{
+    opacity: 1;
+    
+}
+.row{
+    row-gap: 20px;
+}
+.col-sm img:hover{
+    -webkit-box-shadow: 3px 3px 5px 10px #f6e8e8;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 10px #fff8f8;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #0c0c0c;
+}
+a[href]{
+    color: white;
+    text-decoration: none;
+}
+.topic{
+ color: #f6e8e8;
+ text-transform: capitalize;
+
+}
+.topic >h1{
+    margin-top: 40px;
+    padding-left: 2px;
+    font-weight: 300;
+    margin-bottom: 00px;
+}
+.container{
+    margin-left: 140px;
+}
+
+
+
+
+
+
+
+
+
+.rec{
+ height: 300px;
+ margin-left: 200px;
+ margin-bottom: 200px;
+ box-shadow: 0 4px 8px 0 rgba(225, 193, 193, 0.2), 0 6px 20px 0 rgba(207, 115, 115, 0.19);
+ border-radius: 10px;
+}
+.rec1{
+    padding-left: 800px;
+    color: #f6e8e8;
+    margin-top: -400px;
+    word-spacing: 2px;
+   
+}
+.recc{
+height: 400px;
+float: right;
+box-shadow: 0 4px 8px 0 rgba(225, 193, 193, 0.2), 0 6px 20px 0 rgba(207, 115, 115, 0.19);
+margin-right: 200px;
+margin-top: -200px;
+}
+.recc1{
+    padding-left:200px ;
+   margin-top: 200px;
+
+   color: #f6e8e8;
+   letter-spacing: 2px;
+}
+.login div{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login input{
+   margin-left: 400px;
+   padding-right: 200px;
+   border-radius: 5px;
+   height: 40px;
+}
+.login button{
+    background-color: #E50914;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: #f6e8e8;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.a1:hover{
+    text-decoration: underline;
+}
+.a2:hover{
+    text-decoration: underline;
+}
+.a3:hover{
+    text-decoration: underline;
+}
+.a4:hover{
+    text-decoration: underline;
+}
+.a5:hover{
+    text-decoration: underline;
+}
+.a6:hover{
+    text-decoration: underline;
+}
+.a7:hover{
+    text-decoration: underline;
+}
+.a8:hover{
+     text-decoration: underline;
+}
+.a9:hover{
+    text-decoration: underline;
+}
+.a10:hover{
+    text-decoration: underline;
+}
+.a11:hover{
+    text-decoration: underline;
+}
+.a12:hover{
+    text-decoration: underline;
+}
+
+
+
+td{
+    padding-right:250px;
+    margin-right: 100px;
+    font-size: 20px;
+    
+}
+footer{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+
+    
+}
+footer>div{
+    font-size: 20px;
+    
+}
+footer>div:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+    }
+footer:hover{
+    cursor: pointer;
+    
+}
